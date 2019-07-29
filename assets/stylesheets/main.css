@@ -653,19 +653,17 @@ font-family: 'DM Serif Display', serif;
     text-transform: uppercase;
 }
 .col-1{
-    margin-left: -97%;
+    margin-left: 23%;
     border: 5px solid #ff4f81;
     color: #ff4f81;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .col-2{
-    margin-left: 120%;
     border: 5px solid #1cc7d0;
     color: #1cc7d0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .col-3{
-    margin-top: 20%;
     margin-left: 32%;
     border: 5px solid #7fbb00;
     color: #7fbb00;

@@ -231,67 +231,11 @@ footer{
     .header-desc {
         width: 330px;
     }
-}
-/* .header-desc {
-    width: 368px;
-    left: 20px;
-}
-ul li{
-    display: block;
-    margin: 12px 82px 0px 85px;
-}
-.contact-left{
-    display: block;
-    width: 100%;
-    margin-bottom: 30px;
-}
-.contact-right{
-    display: block;
-    width: 100%;
-}
-.about-left{
-
-}
-.wrap{
-    flex-wrap: wrap;
-}
-.social a {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    display: block;
-    text-align: center;
-    line-height: 35px;
-    font-size: 20px;
-    margin: 0px 10px;
-    border: 3px solid #000;
-}
-.contact-right ul{
-    display: inline;
-}
-.contact-right ul li{
-    display: inline-block;
-    margin: 0px 0px 10px 0px;
-} */
-
-
-/* @media (min-width: 1200px){
-.container {
-    max-width: 1140px;
+    .social a {
+        height: 50px;
+        width: 50px;
+        line-height: 49px;
+        font-size: 24px;
+    }
 }
 }
-@media (min-width: 992px){
-.container {
-    max-width: 960px;
-}
-}
-@media (min-width: 768px){
-.container {
-    max-width: 720px;
-}
-}
-@media (min-width: 576px){
-.container {
-    max-width: 540px;
-}
-} */

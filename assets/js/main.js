@@ -6,19 +6,7 @@ function initEvent() {
     document.querySelector(".nav-hs").addEventListener("click", navbar);
     top = document.querySelector(".top-arrow").addEventListener("click", goToTop);
     window.addEventListener("scroll", rotateimg);
-    window.addEventListener("scroll", educationScrollY);
 
-}
-function educationScrollY() {
-    var position = window.scrollY;
-    if (position > 1842) {
-        document.querySelector(".col-1").style.transitionDuration = "1s";
-        document.querySelector(".col-1").style.marginLeft = "23%";
-        document.querySelector(".col-2").style.transitionDuration = "1s";
-        document.querySelector(".col-2").style.marginLeft = "0%";
-        document.querySelector(".col-3").style.transitionDuration = "1s";
-        document.querySelector(".col-3").style.marginTop = "0%";
-    }
 }
 // function hscroll() {
 //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {

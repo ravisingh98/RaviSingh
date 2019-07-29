@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .row{
     display: flex;
 }
@@ -35,14 +38,14 @@ a{
     min-height: 50px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 30;
 }
 .headerscroll{
     background: rgba(25, 25, 25, 0.8);
     min-height: 50px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 30;
 }
 .justify-content{
     justify-content: space-between;
@@ -84,7 +87,7 @@ a{
 .nav-bar ul li a{
     color: #fff;
     display: block;
-   margin: 10px 8px;
+    padding: 10px 8px;
     font-size: 20px;
     
 }
@@ -222,54 +225,114 @@ min-height: 100vh;
         color: #146eb4;
     }
 }
-.skills-bar{
-    background-color: #eee;
-    min-height: 30px;
-    margin: 50px 0px;
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #eeeeee;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    line-height: 2.5;
+    z-index: 10;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10;
+}
+.progress{
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+}
+.htmlColor{
+    background: #dc143c;
+}
+.cssColor{
+    background: #4a148c;
+}
+.jsColor{
+    background: #ff4500;
+}
+.jQueryColor{
+    background: #1b5e20;
+}
+.bootColor{
+    background: #146eb4;
+}
+.corejColor{
+    background: #dc143c;
+}
+.advjColor{
+    background: #4a148c;
+}
+.springColor{
+    background: #ff4500;
+}
+.angularColor{
+    background: #1b5e20;
+}
+.reactColor{
+    background: #146eb4;
+}
+.html{
+    background: #db4866;
+}
+.css{
+    background: #55298a;
+}
+.js{
+    background: #fa8d64;
+}
+.jQuery{
+    background: #66bb6a;
+}
+.boot{
+    background: #4c87b5;
+}
+.corej{
+    background: #db4866;
+}
+.advj{
+    background: #55298a;
+}
+.spring{
+    background: #fa8d64;
+}
+.angular{
+    background: #66bb6a;
+}
+.react{
+    background: #4c87b5;
 }
 .skills-left{
-    width: 46%;
-    margin-right: 30px;
-    font-family: 'Open Sans', sans-serif;
+    width: 48%;
 }
 .skills-right{
-    width: 46%;
-    margin-left: 30px;
-    font-family: 'Open Sans', sans-serif;
-}
-.skills-bar span{
-    line-height: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 5px;
-    color: #000;
-}.skillsbar{
-    width: 70%;
-    background-color:crimson;
-    border-radius: 5px;
-}
-.skillsbar2{
-    width: 80%;
-    background-color:#146eb4;
-    border-radius: 5px;
-}
-.skillsbar3{
-    width: 90%;
-    background-color:orangered;
-    border-radius: 5px;
-}
-.skillsbar4{
-    width: 90%;
-    background-color:darkorchid;
-    border-radius: 5px;
-}
-.skillsbar5{
-    width: 50%;
-    background-color:green;
-    border-radius: 5px;
+    width: 48%;
 }
 .percentage{
-    float: right;
+    position: absolute;
+    right: 0px;
 }
 footer{
     background-color: #272727;
@@ -352,6 +415,7 @@ footer{
 .msg{
     width: 98%;
     height: 200px;
+    resize: none;
 }
 .contact-left-col-1{
     width: 50%;
@@ -589,17 +653,19 @@ font-family: 'DM Serif Display', serif;
     text-transform: uppercase;
 }
 .col-1{
-    margin-left: 23%;
+    margin-left: -97%;
     border: 5px solid #ff4f81;
     color: #ff4f81;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .col-2{
+    margin-left: 120%;
     border: 5px solid #1cc7d0;
     color: #1cc7d0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .col-3{
+    margin-top: 20%;
     margin-left: 32%;
     border: 5px solid #7fbb00;
     color: #7fbb00;

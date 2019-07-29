@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Resume : Java Developer | UI/UX Designer | Web Application Developer</title>
+    <title>My Resume : Web Developer | UI Designer | Java Developer</title>
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
     <script src="https://kit.fontawesome.com/b06605e970.js"></script>
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/stylesheets/queries.css">
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+
 </head>
 
 <body>
@@ -26,7 +29,9 @@
                     <div class="container">
                         <div class="row wrap justify-content">
                             <div class="logo">
-                                <h1>My Resume</h1>
+                                <a href="index.html">
+                                    <h1>My Resume</h1>
+                                </a>
                             </div>
                             <div class="nav-hs">
                                 <i class="fas fa-bars"></i>
@@ -93,69 +98,59 @@
         <section id="skills">
             <div class="container">
                 <h3>Skills</h3>
-                <div class="row wrap">
+                <div class="row wrap justify-content">
                     <div class="skills-left">
-                        <div class="skills-bar">
-                            <div class="skillsbar">
-                                <span>c</span>
-                                <span class="percentage">70%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title htmlColor">HTML</div>
+                            <div class="progress html"></div>
+                            <div class="progress_value">90%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar2">
-                                <span>c++</span>
-                                <span class="percentage">80%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title cssColor">CSS</div>
+                            <div class="progress css"></div>
+                            <div class="progress_value">85%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar3">
-                                <span>html</span>
-                                <span class="percentage">90%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title jsColor">JavaScript</div>
+                            <div class="progress js"></div>
+                            <div class="progress_value">60%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar4">
-                                <span>css</span>
-                                <span class="percentage">90%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title jQueryColor">jQuery</div>
+                            <div class="progress jQuery"></div>
+                            <div class="progress_value">40%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar5">
-                                <span>javascript</span>
-                                <span class="percentage">50%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title bootColor">BootStrap</div>
+                            <div class="progress boot"></div>
+                            <div class="progress_value">30%</div>
                         </div>
                     </div>
                     <div class="skills-right">
-                        <div class="skills-bar">
-                            <div class="skillsbar">
-                                <span>Core Java</span>
-                                <span class="percentage">70%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title corejColor">Core Java</div>
+                            <div class="progress corej"></div>
+                            <div class="progress_value">85%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar2">
-                                <span>Adv Java</span>
-                                <span class="percentage">80%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title advjColor">Adv Java</div>
+                            <div class="progress advj"></div>
+                            <div class="progress_value">75%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar3">
-                                <span>Spring</span>
-                                <span class="percentage">90%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title springColor">Spring</div>
+                            <div class="progress spring"></div>
+                            <div class="progress_value">80%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar4">
-                                <span>css</span>
-                                <span class="percentage">90%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title angularColor">Angular Js</div>
+                            <div class="progress angular"></div>
+                            <div class="progress_value">70%</div>
                         </div>
-                        <div class="skills-bar">
-                            <div class="skillsbar5">
-                                <span>javascript</span>
-                                <span class="percentage">50%</span>
-                            </div>
+                        <div class="progressBar">
+                            <div class="title reactColor">React</div>
+                            <div class="progress react"></div>
+                            <div class="progress_value">85%</div>
                         </div>
                     </div>
                 </div>
